@@ -22,7 +22,12 @@ to date run `brew update` then `brew upgrade mongo`.
 In your own words, what are some advantages of a NoSQL database?
 
 ```md
-<!-- your answer here -->
+- Large volumes of rapidly changing structured, semi-structured, and
+unstructured data
+- Agile sprints, quick schema iteration, and frequent code pushes
+- Object-oriented programming that is easy to use and flexible
+- Geographically distributed scale-out architecture instead of expensive,
+monolithic architecture
 ```
 
 ## Disadvantages of MongoDB
@@ -30,7 +35,13 @@ In your own words, what are some advantages of a NoSQL database?
 In your own words, what are some disadvantages of a NoSQL database?
 
 ```md
-<!-- your answer here -->
+- Most NoSQL databases do not perform ACID transactions, a tried and true
+technique for ensuring that data remains consistent across the entire database
+as it is moved around.
+- SQL databases are best fit for heavy duty transactional type applications,
+as it is more stable and promises the atomicity as well as integrity of
+the data.
+- NoSQL database you still have to rely on community support
 ```
 
 ## Popularity
@@ -39,5 +50,8 @@ Why is MongoDB so popular?  Explain why popularity should not be the only factor
 when choosing a technology
 
 ```md
-<!-- your answer here -->
+MongoDB is a popular NoSQL database because it is scalable and was promoted
+by the developmen community.  This doesn't mean it is the best technology for
+a project.  Popularity is often based on people wanting NEW or COOL alternatives
+when the original options might be just as good or even better.
 ```
