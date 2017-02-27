@@ -22,7 +22,7 @@ to date run `brew update` then `brew upgrade mongo`.
 In your own words, what are some advantages of a NoSQL database?
 
 ```md
-<!-- your answer here -->
+MongoDB is web scale. That is to say, MongoDB retrieves data quickly, and is flexible. MongoDB also supports queries across a large number of documents. It is also highly scalable
 ```
 
 ## Disadvantages of MongoDB
@@ -30,7 +30,7 @@ In your own words, what are some advantages of a NoSQL database?
 In your own words, what are some disadvantages of a NoSQL database?
 
 ```md
-<!-- your answer here -->
+MongoDB is web scale. That is to say, it has to make a number of sacrifices in order to gain the speed an flexibility which it touts. Chief among these is the fact that it will tell you it has written a document when in fact all it did was stage the change to be written at a later date, and if that fails, you will not know. Also, it does not handle siutations involving a large number of relationships between documents very well.
 ```
 
 ## Popularity
@@ -39,5 +39,7 @@ Why is MongoDB so popular?  Explain why popularity should not be the only factor
 when choosing a technology
 
 ```md
-<!-- your answer here -->
+MongoDB is web scale. That is to say it has a very good marketing team and rode a wave of noSQL popularity. It is also very good for rapidly prototyping a product.
+
+Popularity should not be the only factor because people love to recommend their favorite things with zero consideration for the actual needs of an app.
 ```
