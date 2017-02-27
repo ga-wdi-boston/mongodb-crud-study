@@ -51,7 +51,7 @@ when choosing a technology
 - Choosing a technology should be like choosing a car...
   - Don't get the flashiest thing without thinking because you might get scammed
   - Get the thing that works according to YOUR NEEDS
-  - (Plus flashier things get ~~pulled over~~ in trouble more often)
+  - (Plus flashier things get in trouble more often)
   - And if you don't do your research, you may spend lots of time and money fixing the problems that came with it
     - (See Sarah Mei)
   - Think ahead, basically. Don't waste your time and money because of a widely used technology.
