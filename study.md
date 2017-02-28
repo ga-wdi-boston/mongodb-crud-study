@@ -22,7 +22,7 @@ to date run `brew update` then `brew upgrade mongo`.
 In your own words, what are some advantages of a NoSQL database?
 
 ```md
-<!-- your answer here -->
+A NoSQL database is a non-relational database.  Some advantages it has are: it is more scalable and generally has higher performance than relational databases.  It is more adaptable and can deal with frequent code changes easily.  Server load is balanced over a large number of servers, so if one server goes down it has minimal effect.  It has quick access to the information because everything is stored in a json string; there are no foreign keys.
 ```
 
 ## Disadvantages of MongoDB
@@ -30,7 +30,7 @@ In your own words, what are some advantages of a NoSQL database?
 In your own words, what are some disadvantages of a NoSQL database?
 
 ```md
-<!-- your answer here -->
+Non-relational databases aren't as consistent as relational databases.  If data becomes lost or corrupt, they cannot just 'nuke-pave' and reset the datbase because it is a cache without a backup.  It is also difficult to add relationships between data in a non-relational database.
 ```
 
 ## Popularity
@@ -39,5 +39,5 @@ Why is MongoDB so popular?  Explain why popularity should not be the only factor
 when choosing a technology
 
 ```md
-<!-- your answer here -->
+It is so popular because it makes it easy to get a responsive database up and runnning quickly.  One should consider if MongoDB is appropriate for their type of data storage first, because using a relational database may suit them better.  
 ```
