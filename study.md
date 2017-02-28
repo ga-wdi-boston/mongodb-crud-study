@@ -22,7 +22,12 @@ to date run `brew update` then `brew upgrade mongo`.
 In your own words, what are some advantages of a NoSQL database?
 
 ```md
-<!-- your answer here -->
+* Faster querying
+* Can have lager DB
+* Uses caching (if the data doesn’t need to change much)
+* Flexibility (don’t need to have a schema setup, no need for ERD setup, you can build as you go)
+* Time and efficiency, you can throw a DB together in no time  and modify as you go.
+
 ```
 
 ## Disadvantages of MongoDB
@@ -30,7 +35,12 @@ In your own words, what are some advantages of a NoSQL database?
 In your own words, what are some disadvantages of a NoSQL database?
 
 ```md
-<!-- your answer here -->
+* Data is less secure
+* Does not model relationships  well.
+* If you have too much data and in production you can loose all your data
+* Its not supported as much even though its popular
+* Update don't happen immidiately.
+
 ```
 
 ## Popularity
@@ -39,5 +49,8 @@ Why is MongoDB so popular?  Explain why popularity should not be the only factor
 when choosing a technology
 
 ```md
-<!-- your answer here -->
+* Mongo is popular because of its ease of use and flexibility, you almost always at some
+point want to move your data to a SQL db. It's not good to use is for large data sets. Or when
+Data is valuable tp your app/ company/ product. Just beacause its popular it may not be right to use.
+
 ```
