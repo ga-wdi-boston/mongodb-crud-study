@@ -39,5 +39,5 @@ Why is MongoDB so popular?  Explain why popularity should not be the only factor
 when choosing a technology
 
 ```md
-<!-- your answer here -->
+MongoDB is popular because of its flexibility.  In a time of start-ups, it has an especially high appeal because of the ability to make frequence and quick changes.  But popularity should not be the only thing considered.  This is because there are big tradeoffs for using MongoDB versus a SQL database.  Therefore, MongoDB should only be used in a limited number of situations (i.e. if the advantages are greater than the disadvantages for a particular scenario).
 ```
